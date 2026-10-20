@@ -1,6 +1,31 @@
 # NFS-World-Offline-Achievements-Reset
 It changes the "DriverTemplate", so any new account created starts with all achievements at 0, and can be progressed and completed.
 
+# .bat File
+
+Extract the "Achievements Reset.bat" to the folder "server folder"
+
+Server Folder Structure
+```
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/10/2026     04:06                config
+d-----        20/10/2026     04:06                data
+d-----        20/10/2026     05:42                drivers
+d-----        20/10/2026     04:08                node_modules
+d-----        20/10/2026     04:06                src
+-a----        19/10/2026     01:32             32 .gitignore
+-a----        19/10/2026     01:32          35149 LICENSE
+-a----        20/10/2026     04:08          55555 package-lock.json
+-a----        19/10/2026     01:32            799 package.json
+-a----        19/10/2026     01:32          11836 README.md
+-a----        19/10/2026     01:32         591872 ServerEditor.exe
+-a----        19/10/2026     01:32            456 start.bat
+
+```
+
+Open "Achievements Reset.bat"
+
 # Powershell Script
 
 In powershell use the command "cd" to the server folder
@@ -128,31 +153,6 @@ Write-Host ""
 Write-Host "All template changes completed successfully."
 
 ```
-
-# .bat File
-
-Extract the "Achievements Reset.bat" to the folder "server folder"
-
-Server Folder Structure
-```
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        20/10/2026     04:06                config
-d-----        20/10/2026     04:06                data
-d-----        20/10/2026     05:42                drivers
-d-----        20/10/2026     04:08                node_modules
-d-----        20/10/2026     04:06                src
--a----        19/10/2026     01:32             32 .gitignore
--a----        19/10/2026     01:32          35149 LICENSE
--a----        20/10/2026     04:08          55555 package-lock.json
--a----        19/10/2026     01:32            799 package.json
--a----        19/10/2026     01:32          11836 README.md
--a----        19/10/2026     01:32         591872 ServerEditor.exe
--a----        19/10/2026     01:32            456 start.bat
-
-```
-
-Open "Achievements Reset.bat"
 
 
 # For already created accounts (not recommended)
