@@ -225,14 +225,6 @@ The goal is to make the initial driver experience more suitable for players who 
 
 I do not claim authorship of the original server, the original game data, or the work of the projects acknowledged above.
 
-# Licensing and third-party work
-
-This project is based on or distributes material associated with NFS-World-Offline. Please consult the original repository's GPL-3.0 license and preserve applicable copyright notices and license terms.
-
-Original code, data, and contributions remain attributable to their respective authors. Refer to the upstream repositories for their complete licensing information.
-
-See the repository's LICENSE file for the license applicable to this distribution.
-
 # Disclaimer
 
 This is an unofficial, community-made project. It is not affiliated with, endorsed by, or supported by Electronic Arts or the original developers of Need for Speed: World.
