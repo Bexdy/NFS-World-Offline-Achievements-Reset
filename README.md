@@ -1,5 +1,12 @@
-# NFS-World-Offline-Achievements-Reset
-It changes the "DriverTemplate", so any new account created starts with all achievements at 0, and can be progressed and completed.
+# NFS World Offline — Achievement Reset
+
+A small community contribution for NFS-World-Offline by Lawin0129.
+
+This project provides a script and modified driver-template configuration intended to let newly created drivers begin with zero completed achievements, while retaining the ability to progress through and complete achievements during gameplay. 
+
+**(It changes the "DriverTemplate", so any new account created starts with all achievements at 0, and can be progressed and completed. REQUIRES SERVER TO BE DOWN FOR THESE CHANGES)**
+
+This project builds upon the work of existing developers and community projects. Their work is acknowledged below.
 
 # .bat File
 
@@ -182,3 +189,52 @@ Mode                 LastWriteTime         Length Name
 -a----        20/10/2026     05:42         216580 loadall.xml
 -a----        20/10/2026     05:43           4039 objects.xml
 ```
+
+# Based on
+NFS-World-Offline — Lawin0129
+
+Original project: https://github.com/Lawin0129/NFS-World-Offline
+
+The original project provides the Node.js backend used to run Need for Speed: World locally. This repository builds upon its driver-template structure and achievement data.
+
+Credit: Lawin0129 is the creator of the original NFS-World-Offline project. The original project's authorship remains with its respective author.
+
+Please visit the original repository for the full server implementation, documentation, features, and original credits.
+
+# Acknowledgements
+## Soapbox Race World
+
+Project: https://github.com/SoapboxRaceWorld
+
+Soapbox Race World is an important community project dedicated to keeping Need for Speed: World playable through community-developed infrastructure.
+
+The NFS-World-Offline README acknowledges Soapbox Race World for NFS World data files. This project recognizes that contribution and the broader community's work in preserving the game.
+Soapbox Race Offline 1.9.0
+
+Original project: https://github.com/berkay2578/soapbox-race-offline-1.9.0
+
+The NFS-World-Offline project credits berkay2578 and Nilzao for contributions associated with catalog and basket XML files, the Server Editor, and the XMPP message subject hash algorithm.
+
+These acknowledgements are retained in recognition of the work documented by the original project.
+
+## My contribution
+
+My contribution is the focused modification of the driver template and the accompanying automation script for initializing achievement progress and profile score values.
+
+The goal is to make the initial driver experience more suitable for players who want to earn achievements through gameplay rather than begin with achievements already marked as completed.
+
+I do not claim authorship of the original server, the original game data, or the work of the projects acknowledged above.
+
+# Licensing and third-party work
+
+This project is based on or distributes material associated with NFS-World-Offline. Please consult the original repository's GPL-3.0 license and preserve applicable copyright notices and license terms.
+
+Original code, data, and contributions remain attributable to their respective authors. Refer to the upstream repositories for their complete licensing information.
+
+See the repository's LICENSE file for the license applicable to this distribution.
+
+# Disclaimer
+
+This is an unofficial, community-made project. It is not affiliated with, endorsed by, or supported by Electronic Arts or the original developers of Need for Speed: World.
+
+Need for Speed and Need for Speed: World are trademarks of their respective owners. This repository is intended for community preservation and modification purposes.
